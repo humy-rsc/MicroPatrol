@@ -1,4 +1,4 @@
-package com.rsckj.micropatrol.mapper;
+package com.rsckj.micropatrol.dao;
 
 import com.rsckj.micropatrol.po.Users;
 import com.rsckj.micropatrol.po.UsersExample;
