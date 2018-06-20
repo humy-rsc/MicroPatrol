@@ -101,6 +101,17 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.8</version>
         </dependency>
+        <!-- 导入连接池的jar包 -->
+        <dependency>  
+            <groupId>com.alibaba</groupId>  
+            <artifactId>druid</artifactId>  
+            <version>1.0.9</version>  
+        </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.8.8</version>
+        </dependency>
         <!-- JSTL标签类 -->
         <dependency>
             <groupId>jstl</groupId>
@@ -130,6 +141,14 @@
             <scope>provided</scope>
         </dependency>
         <!-- log end -->
+        
+        <dependency>
+		    <groupId>com.fasterxml.jackson.core</groupId>
+		    <artifactId>jackson-databind</artifactId>
+		    <version>2.3.2</version>
+		</dependency>
+
+        
         <!-- 上传组件包 -->
         <dependency>
             <groupId>commons-fileupload</groupId>
